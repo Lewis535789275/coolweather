@@ -12,7 +12,7 @@ public class City extends DataSupport{
     private int id; //每个实体类都应该有的字段，和项目无关，一定要有
     private String cityName; //市名
     private int cityCode; //市代码
-    private int provinceID; //从属省份的ID/Code
+    private int provinceId; //从属省份的Id/Code
 
     public int getId() {
         return id;
@@ -33,10 +33,10 @@ public class City extends DataSupport{
         this.cityCode = cityCode;
     }
 
-    public int getProvinceID() {
-        return provinceID;
+    public int getProvinceId() {
+        return provinceId;
     }
-    public void setProvinceID(int provinceID) {
-        this.provinceID = provinceID;
+    public void setProvinceId(int provinceId) {
+        this.provinceId = provinceId;
     }
 }

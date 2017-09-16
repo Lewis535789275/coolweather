@@ -11,8 +11,8 @@ public class County extends DataSupport{
 
     private int id;
     private String countyName;
-    private String weatherID; //天气ID
-    private int cityID; //当前从属的市
+    private String weatherId; //天气Id
+    private int cityId; //当前从属的市
 
     public int getId() {
         return id;
@@ -26,16 +26,17 @@ public class County extends DataSupport{
     public void setCountyName(String countyName) {
         this.countyName = countyName;
     }
-    public String getWeatherID() {
-        return weatherID;
+    public String getWeatherId() {
+        return weatherId;
     }
-    public void setWeatherID(String weatherID) {
-        this.weatherID = weatherID;
+    public void setWeatherId(String weatherId) {
+        this.weatherId = weatherId;
     }
-    public int getCityID() {
-        return cityID;
+
+    public int getCityId() {
+        return cityId;
     }
-    public void setCityID(int cityID) {
-        this.cityID = cityID;
+    public void setCityId(int cityId) {
+        this.cityId = cityId;
     }
 }
